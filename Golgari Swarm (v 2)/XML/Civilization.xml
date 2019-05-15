@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_GOLGARI</Type>
+      <Description>TXT_KEY_CIV_GOLGARI_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_GOLGARI</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_GOLGARI_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_GOLGARI_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_GOLGARI</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_GOLGARI</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+      <ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+      <ArtStylePrefix>ASIAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>GOLGARI_ICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>GOLGARI_CIV_WHITE_FLAGS</AlphaIconAtlas>
+      <MapImage>GolgariMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_GOLGARI_TEXT</DawnOfManQuote>
+      <DawnOfManImage>GolgariDOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <Civilization_BuildingClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+      <BuildingType>BUILDING_ROT_FARM</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_GOLGARI_0</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <LeaderheadType>LEADER_JARAD</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <ReligionType>RELIGION_TAOISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_GOLGARI_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_GOLGARI</CivilizationType>
+      <UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+      <UnitType>UNIT_SKELETON</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_GOLGARI</Type>
+      <PrimaryColor>COLOR_PLAYER_GOLGARI_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_GOLGARI_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_GOLGARI_ICON</Type>
+      <Red>0.125</Red>
+      <Green>0.125</Green>
+      <Blue>0.125</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_GOLGARI_BACKGROUND</Type>
+      <Red>0.0</Red>
+      <Green>0.4</Green>
+      <Blue>0.0</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_GOLGARI_DESC">
+      <Text>Golgari Swarm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_FACTOID_HEADING">
+      <Text>Golgari Factoid</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_FACTOID_TEXT">
+      <Text>The Golgari Swarm is a black/green guild from the plane and city of Ravnica. Introduced in Ravnica: City of Guilds, the guild is also featured in Return to Ravnica and the Izzet vs. Golgari set, opposite the Izzet League.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_HEADING_1">
+      <Text>Background</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_HEADING_2">
+      <Text>History</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_TEXT_1">
+      <Text>The Golgari Swarm is the embodiment and amalgamation of life and death. The guild believes that life and death are both natural and are essential to, and as essential as, one another, with life and death being natural elements of a cycle with no intermediary break. Growth, and thus power, however slowly but ruthlessly and inevitably, are key to the Swarm,  As a consequence of their necromantic magic, the Golgari are the largest Ravnican guild.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_TEXT_2">
+      <Text>Founded by parun Svogthir, a human necromancer-turned-lich, the Golgari Swarm functions as the agricultural sector of Ravnican society. Following his mortal death, using his mastery of magic, Svogthir reanimated his own corpse and commenced body modification, by incorporating body parts from others, such as the chest of the Gruul Clans parun Cisarzim, into it, so as to create a more-perfect, stronger being.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GOLGARI_TITLE">
+      <Text>Golgari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GOLGARI_SHORT_DESC">
+      <Text>Golgari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GOLGARI_ADJECTIVE">
+      <Text>Golgari</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_GOLGARI_TEXT">
+      <Text>The Golgari Swarm fuses the opposite values of life and death, fostering growth in Ravnica's decaying communities but also fostering decay in places of growth. The elves, zombies, insects, and undead/plant hybrids of the Golgari are like one massive growing, feeding organism, collectively spreading across the plane wherever they can fit. The Golgari provide a necessary service in Ravnica: they dispose of the carcasses civilization leaves behind, and mysteriously they also provide sustenance for the forgotten and the needy. They are the scavengers and decomposers at the fringes of the food chain, but yearn to be the predators at the top.[NEWLINE][NEWLINE]The Golgari guild is organized more like a single organism than a collective. It has a nucleus or nerve center that drives the direction and growth of the guild, elements that collect nutrients and convert them into usable resources, defenses that fight off foreign bodies, and an instinctual drive to survive, reproduce, and overcome.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GOLGARI_0">
+      <Text>Korozda</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_0">
+      <Text>Svogthir</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_1">
+      <Text>Elga</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_2">
+      <Text>Ezoc</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_3">
+      <Text>Nayine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_4">
+      <Text>Shonn</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_5">
+      <Text>Savra</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_6">
+      <Text>Dainya</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_7">
+      <Text>Trasz</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_8">
+      <Text>Zurno</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_GOLGARI_9">
+      <Text>Varl</Text>
+      <Gender>feminine</Gender>
+    </Row>
+  </Language_en_US>
+</GameData>

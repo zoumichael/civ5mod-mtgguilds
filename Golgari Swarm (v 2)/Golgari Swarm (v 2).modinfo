@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eae3c521-ab8a-4d9e-b3c1-7cdb35ad5e13" version="2">
+  <Properties>
+    <Name>Golgari Swarm</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Golgari Swarm from Magic: The Gathering as a playable civilization in the game.</Teaser>
+    <Description>Adds the Golgari Swarm from Magic: The Gathering as a playable civilization in the game.</Description>
+    <Authors>Michael</Authors>
+    <SpecialThanks>Civitar</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9576AEFEC92AC4E7CA95BC853BADD6C9" import="1">ART/GolgariDiplo.dds</File>
+    <File md5="6B527E2854C569BA422F5180B113D9FA" import="1">ART/GolgariDOM.dds</File>
+    <File md5="8EACFA202732FF75EE14BB8857D91B01" import="1">ART/GolgariFlag.dds</File>
+    <File md5="9A5DBC2F551E21F312019152C9E3C56B" import="1">ART/GolgariIconAtlas128.dds</File>
+    <File md5="0EC3884FBDAAC53D16B32D4F820A61D5" import="1">ART/GolgariIconAtlas256.dds</File>
+    <File md5="BBB8C725CEE377DCF36669373661A92F" import="1">ART/GolgariIconAtlas32.dds</File>
+    <File md5="55D716D169B5C0823589AFD3CFDEC7A0" import="1">ART/GolgariIconAtlas45.dds</File>
+    <File md5="9D07850F73BB1E504795C59D097C5949" import="1">ART/GolgariIconAtlas64.dds</File>
+    <File md5="8E6043F5250804FE2E47507C38819017" import="1">ART/GolgariIconAtlas80.dds</File>
+    <File md5="4BE993B1E33A9776B08DB77930BFEF57" import="1">ART/GolgariMap.dds</File>
+    <File md5="A1D68F5CFD5E7CA33279D467C9B8F688" import="1">ART/GolgariScene.xml</File>
+    <File md5="E71CB75628AAA44590A46CCA8D9B6883" import="1">ART/GolgariWhite128.dds</File>
+    <File md5="B8BCDC5F121BAB049ABA568DB59EB559" import="1">ART/GolgariWhite16.dds</File>
+    <File md5="0053DE13E21C570A5C7C99FCCCB4F392" import="1">ART/GolgariWhite24.dds</File>
+    <File md5="EAD83B5D6CE6B3A81F5B28DBCDCE18F4" import="1">ART/GolgariWhite32.dds</File>
+    <File md5="95852A2B89748FFCFE1A936A368DE886" import="1">ART/GolgariWhite48.dds</File>
+    <File md5="BF7DBA74065E0ED283A04D0724AED5F3" import="1">ART/GolgariWhite64.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">ART/Model/black_4x4.dds</File>
+    <File md5="99B2E01FC5BE395AC42D4243C4209CB5" import="1">ART/Model/skeleton.fxsxml</File>
+    <File md5="043838ABA4143CF1CF8A44629FB4A73B" import="1">ART/Model/skeleton.gr2</File>
+    <File md5="B2C8805004FC1446AD621C6CD17F421F" import="1">ART/Model/skeleton_diff.dds</File>
+    <File md5="BDFACF86F1C5C5EDCD724D63EC1CA75B" import="1">ART/SV_Skeletion.dds</File>
+    <File md5="6AB10DD2FEE0A3F56483DCEA84AB5332" import="0">XML/Buildings.xml</File>
+    <File md5="A870A8BAC386039A0BAABD91C6E37E6F" import="0">XML/Civilization.xml</File>
+    <File md5="89645FA91F261AD249F611960EBA31A0" import="0">XML/Diplomacy_Responses.xml</File>
+    <File md5="0DFFFA101DD795E5C01871BCF5A35D4C" import="0">XML/IconTextureAtlases.xml</File>
+    <File md5="AE65E6B8D1FAE07A467720BE1B7554DE" import="0">XML/ArtDef.xml</File>
+    <File md5="BD2CDBA417248B85C58B06423A495BE5" import="0">XML/Leader.xml</File>
+    <File md5="BBB4427AB9A89C251467BFD0EC8C3660" import="0">XML/Trait.xml</File>
+    <File md5="26CC00681F60DAADA7C9F78F2B1F515D" import="0">XML/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/ArtDef.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy_Responses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

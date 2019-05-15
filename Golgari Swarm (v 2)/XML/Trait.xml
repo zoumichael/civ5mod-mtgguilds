@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Traits>
+    <Row>
+      <Type>TRAIT_DEADBRIDGE_CHANT</Type>
+      <Description>TXT_KEY_TRAIT_DEADBRIDGE_CHANT</Description>
+      <ShortDescription>TXT_KEY_TRAIT_DEADBRIDGE_CHANT_SHORT</ShortDescription>
+      <PopulationUnhappinessModifier>-50</PopulationUnhappinessModifier>
+      <LandUnitMaintenanceModifier>-50</LandUnitMaintenanceModifier>
+      <PlotCultureCostModifier>-50</PlotCultureCostModifier>
+    </Row>
+  </Traits>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_TRAIT_DEADBRIDGE_CHANT">
+      <Text>[ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens halved. -50% [ICON_CULTURE] for the accquisition of new tiles. Pay 25% less for land unit maintenance.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_DEADBRIDGE_CHANT_SHORT">
+      <Text>Deadbridge Chant</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

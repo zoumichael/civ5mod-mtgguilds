@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/23/2011 12:25:44 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<!-- First Greeting messages from AI leaders-->
+		<Row LeaderType="LEADER_JARAD">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_JARAD_GREETING%</Response>
+		</Row>
+		<!-- Defeated messages from AI leaders -->
+		<Row LeaderType="LEADER_JARAD">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_JARAD_DEFEATED</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_JARAD_GREETING_1">
+			<Text>Greetings, I am Jarad, lich king of the Golgari Swarm.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JARAD_GREETING_2">
+			<Text>Welcome to the Swarm stranger.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JARAD_GREETING_3">
+			<Text>We shall consume you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JARAD_DEFEATED">
+			<Text>The Swarm has faded...</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
