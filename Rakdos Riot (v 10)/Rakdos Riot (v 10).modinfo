@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dfd8a475-ad67-487e-89e3-e7b91a19344a" version="10">
+  <Properties>
+    <Name>Rakdos Riot</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Rakdos Cult from magic the gathering as a playable Civilization in the Game.</Teaser>
+    <Description>Adds the Rakdos Clan to the game, one of the ten guilds from the Ravnica setting of Magic: the Gathering. 
+
+Unique Ability: Slaughter Games - All Units receive the promotion golden ages from kills, during a golden age units are 75% Stronger.
+
+Unique Unit: Shred Freak - Replaces the spearman a bit stronger, 3 movement, 25% bonus against wounded units 
+
+Unique Building: Carnarium - Replaces the Circus provides 2 happiness, and 25% production bonus to land units. No horses or ivory needed.</Description>
+    <Authors>Michael</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="DB8402919189E9BAABDB2A71ADB1D104" import="1">ART/RakdosWhite128.dds</File>
+    <File md5="F831BCC2236FA1CE849DBEA11F5B6972" import="1">ART/RakdosWhite16.dds</File>
+    <File md5="484D6C5399BD065E18F11E0B9E6CC6CC" import="1">ART/RakdosWhite24.dds</File>
+    <File md5="355EEC233EF71569E8A68466478CE36B" import="1">ART/RakdosWhite32.dds</File>
+    <File md5="5E0E3AD75EB69D128E29C715B25BF3AA" import="1">ART/RakdosWhite48.dds</File>
+    <File md5="7ABB00AE3432DE4428B86039BF547B0E" import="1">ART/RakdosWhite64.dds</File>
+    <File md5="0A5C44FAE8923CB53957B829D12E4706" import="1">ART/RIconAtlas128.dds</File>
+    <File md5="6A9C767E7046BBA1F3AE668FA71FF46A" import="1">ART/RIconAtlas256.dds</File>
+    <File md5="49821D5F0DA5BD1E5D501A19EDE4DF79" import="1">ART/RIconAtlas32.dds</File>
+    <File md5="90FF1F0C0C89AE2C47D0D21FDFD7C1F9" import="1">ART/RIconAtlas45.dds</File>
+    <File md5="1BA18EFD1E1464DE3EA816AEA82DF2FC" import="1">ART/RIconAtlas64.dds</File>
+    <File md5="815147231440D22FFC18C6B487E8610F" import="1">ART/RIconAtlas80.dds</File>
+    <File md5="4CA0A78737A72B443EF19FE2A81C0C48" import="1">ART/Map_Rakdos.dds</File>
+    <File md5="816473957AA79CDC635A337CC838D0BD" import="1">ART/Model/hawaii_ikaika.fxsxml</File>
+    <File md5="C2AD90F157A7850255AB6118F9771BC1" import="1">ART/Model/hawaii_ikaika.gr2</File>
+    <File md5="4B287F1BF3990715DD536722531E8595" import="1">ART/Model/hawaii_ikaika_diff.dds</File>
+    <File md5="F0C52B17A20219287233D3049BBF928F" import="1">ART/Model/hawaii_ikaika_sref.dds</File>
+    <File md5="10BCA3853280A8642BF3C75E4F358904" import="1">ART/RakdosDiplo.dds</File>
+    <File md5="C525193A8BFCC234921B51FC625E7DF8" import="1">ART/RakdosDOM.dds</File>
+    <File md5="2D1C5DD58680C65EE14B2FE1BBC1B7AD" import="1">ART/RakdosScene.xml</File>
+    <File md5="5CA07712B1663F1A9D97D6F25BA99367" import="1">ART/RUnitAtlas32.dds</File>
+    <File md5="94E88A7E7DED3161774729135EAA2336" import="0">XML/Buildings/Buildings.xml</File>
+    <File md5="1B480EF1CCBF9D420893C4A1F0DFA08D" import="0">XML/Civilizations/Civilization.xml</File>
+    <File md5="27394068AFAE9295747888B308FDA59B" import="0">XML/Diplomacy/Diplomacy_Responses.xml</File>
+    <File md5="F88EA6A26E06D3B795C0B501E3852D40" import="0">XML/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="AD4A0E661CB49593AE3BA88E6043FF76" import="0">XML/Leaders/Leader.xml</File>
+    <File md5="126A6C1EF5D070472209412520A153A3" import="0">XML/Leaders/Trait.xml</File>
+    <File md5="6026FE0310988339A43709F3160455CE" import="0">XML/Units/ArfDef.xml</File>
+    <File md5="537070C76FE5BD84051013A06A6F47FA" import="0">XML/Units/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/ArfDef.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Diplomacy_Responses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

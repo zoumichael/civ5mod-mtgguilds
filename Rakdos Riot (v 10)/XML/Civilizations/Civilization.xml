@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_RAKDOS</Type>
+      <Description>TXT_KEY_CIV_RAKDOS_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_RAKDOS</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_RAKDOS_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_RAKDOS_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_RAKDOS</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+      <ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+      <ArtStylePrefix>ASIAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>RAKDOS_ICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>RAKDOS_CIV_WHITE_FLAGS</AlphaIconAtlas>
+      <MapImage>Map_Rakdos.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_RAKDOS_TEXT</DawnOfManQuote>
+      <DawnOfManImage>RakdosDOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+  <Civilization_BuildingClassOverrides>
+	  <Row>
+		  <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+		  <BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+		  <BuildingType>BUILDING_BLOOD_CRYPT</BuildingType>
+	  </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_RAKDOS_0</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <LeaderheadType>LEADER_RAKDOS</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <ReligionType>RELIGION_TENGRIISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_RAKDOS_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+      <UnitType>UNIT_SHRED_FREAK</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Civilization_Start_Region_Avoid>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <RegionType>REGION_FOREST</RegionType>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_RAKDOS</CivilizationType>
+      <RegionType>REGION_JUNGLE</RegionType>
+    </Row>
+  </Civilization_Start_Region_Avoid>
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_RAKDOS</Type>
+      <PrimaryColor>COLOR_PLAYER_RAKDOS_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_RAKDOS_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_RAKDOS_ICON</Type>
+      <Red>0.098</Red>
+      <Green>0.098</Green>
+      <Blue>0.098</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_RAKDOS_BACKGROUND</Type>
+	  <Red>0.7843</Red>
+      <Green>0.098</Green>
+      <Blue>0.086</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_RAKDOS_DESC">
+      <Text>Rakdos Cult</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RAKDOS_FACTOID_HEADING">
+      <Text>Factoids</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RAKDOS_FACTOID_TEXT">
+      <Text>The Rakdos Cult is a large group of hedonists, sadists, criminals, and psychopaths under the leadership of a powerful demon named Rakdos. The Rakdos Cult combines an instinctual bloodlust and desire for power. They’re sadistic and cruel simply for the fun of it. Opportunistic violence is their modus operandi. Mayhem and personal enjoyment is their goal. They want Ravnica to bow to their whims and anything that gets in their way—or happens to be walking by—is fair game.[NEWLINE][NEWLINE]Rakdos lacks a formal structure. The cult members despise rules or anything that curtails their freedom, so there are no laws other than the precept to please their demonic master. On the surface, the activities of the guild are run by loosely affiliated “Rings,” each led by a Ringmaster, and each with its own sphere of influence, commodities, and cult followers.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RAKDOS_TITLE">
+      <Text>Rakdos</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_RAKDOS_SHORT_DESC">
+      <Text>Rakdos</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_RAKDOS_ADJECTIVE">
+      <Text>Rakdos</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_RAKDOS_TEXT">
+      <Text>The Cult of Rakdos is one of the ten guilds of Ravnica. It is featured in the pack Dissension. It is more of a restless cult than a guild. The cult worships the demon Rakdos whom they are named after. The cult is headed by Lyzolda, the Blood Witch. Every now and then, the cult goes on killing sprees and kills many people in the city as well as many of their own. The Rakdos feature the colors red and black. The guild is the archrival of the Wojek and plays a big role in the story of the Ravnica Block. The Rakdos featured in the book are cruel and disgusting murderers, who play in death houses. Agrus Kos, the main character in the books, decides to take down the Rakdos after they murdered his partner.[NEWLINE][NEWLINE]A visitor to Ravnica might wonder why the Cult of Rakdos wasn't stamped out by the other guilds millennia ago. After all, what useful purpose could a cabal of thrill-killing, pleasure-seeking demon worshippers actually serve? Quite a few, it turns out. The law-abiding guilds turn to the Rakdos when they need an obstacle removed or an unsavory client entertained. Rakdos assassins may be messy, but they're very enthusiastic, and many Ravnicans believe the demon cult's restaurants and nightclubs are unmatched. What of the demon Rakdos himself? Luckily for the rest of Ravnica, he spends much of his time deep within his palace, Rix Maadi, whiling away the time with unspeakable tortures and other "diversions".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RAKDOS_0">
+      <Text>Rix Maddi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_0">
+      <Text>Balamber</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_1">
+      <Text>Uldin</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_2">
+      <Text>Donatus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_3">
+      <Text>Charato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_4">
+      <Text>Octar</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_5">
+      <Text>Bleda</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_6">
+      <Text>Ellac</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_7">
+      <Text>Dengizik</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_8">
+      <Text>Hildico</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_RAKDOS_9">
+      <Text>Gudrun</Text>
+      <Gender>feminine</Gender>
+    </Row>
+  </Language_en_US>
+</GameData>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3a350523-2468-4651-acf4-266896f38d13" version="5">
+  <Properties>
+    <Name>Selesnya Conclave</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Selesnya Conclave form Magic: The Gathering as a playable civ in the game.</Teaser>
+    <Description>Adds the Selesnya Conclave form Magic: The Gathering as a playable civ in the game. 
+
+The Selesnya Conclave is a war civ that gathers it's strength from the size of it's army, the UA: Collective Blessing grants all land units a bonus to nearby units, and the UU: the Centaur, receives a bonus while attacking and is stronger and faster than the average knight.
+
+The second half of the UA cuts down population unhappiness by 25%, this is good for conquering cities and keeping you happiness at a good level, whilst the UB: Temple Garden grants food, faith and great person points, and unlike the Garden does not require a river to build.</Description>
+    <Authors>Michael</Authors>
+    <SpecialThanks>Nomad or What</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="216E627A15B38D33C3642C96A51E9720" import="1">Art/Model/Centaur.fxsxml</File>
+    <File md5="7894072037622DCEC64F5088E06BABD0" import="1">Art/Model/Centaur.gr2</File>
+    <File md5="EBFA5FBF7CDA5793B10FE1A495404E02" import="1">Art/Model/centaur_diefade_anim.gr2</File>
+    <File md5="448218427DD78D9E5F0D487155F32C9C" import="1">Art/Model/centaur_die_anim.gr2</File>
+    <File md5="6423E5A0F279A49F54EFE12AAA93A0BF" import="1">Art/Model/centaur_fidget_anim.gr2</File>
+    <File md5="2DA4467A3C5C89F209B78E9F99212F21" import="1">Art/Model/centaur_fortidle_anim.gr2</File>
+    <File md5="7D5566D5D9684801830F0872B7741841" import="1">Art/Model/centaur_fortify_anim.gr2</File>
+    <File md5="127A0165E0A92D79E9549A2D9789E7BE" import="1">Art/Model/centaur_hurt_anim.gr2</File>
+    <File md5="92BD55842D2F9BC7D60AA688AF62A107" import="1">Art/Model/centaur_idle_anim.gr2</File>
+    <File md5="75A794454D5544B9F4EA48A4998DD976" import="1">Art/Model/centaur_light.dds</File>
+    <File md5="D188FAA56ADB7876787E23B6C35CD23F" import="1">Art/Model/centaur_light_gloss.dds</File>
+    <File md5="70075B3E77F49F0AA1FB0BBA66F17E06" import="1">Art/Model/centaur_run_anim.gr2</File>
+    <File md5="1320E26AD3C7993937DD0276F2F9AD08" import="1">Art/Model/centaur_strike_anim.gr2</File>
+    <File md5="5A878DCC41B210201D52AB2EC51E4193" import="1">Art/Model/fx_triggers_centaur.ftsxml</File>
+    <File md5="7C7F261C3F4AC7AF485906691FD2B319" import="1">Art/SelesScene.xml</File>
+    <File md5="CB2C2309608696C166BCABE440DF266D" import="1">Art/SDiplo.dds</File>
+    <File md5="59B5D8918E58E4C6E2DB9566FB98ABF2" import="1">Art/SDOM.dds</File>
+    <File md5="DCA09722796493C2C4013319B74C3FB0" import="1">Art/SIconAtlas128.dds</File>
+    <File md5="88DE5AF981B48CA1F33647F425EFD1C6" import="1">Art/SIconAtlas256.dds</File>
+    <File md5="73FBD868A6C05E04B958C867787034FD" import="1">Art/SIconAtlas32.dds</File>
+    <File md5="F05DD9DD747CC09FABDFABF9069CD4AD" import="1">Art/SIconAtlas45.dds</File>
+    <File md5="DBA3F6EE5283B7FBBB6BA3D40829C48B" import="1">Art/SIconAtlas64.dds</File>
+    <File md5="3EB0BE7307B1F1B21732E784537E73E7" import="1">Art/SIconAtlas80.dds</File>
+    <File md5="BA48EF65B1803DBA47B51AC942AE7091" import="1">Art/SMap.dds</File>
+    <File md5="381ACF1928C312F765044BAF6E17406C" import="1">Art/SUnitFlag.dds</File>
+    <File md5="50D849AAA523F3E85E15C56232DBFB3A" import="1">Art/SV_Centaur.dds</File>
+    <File md5="3F0C1045604E6BC716B5825957F233F6" import="1">Art/SWhite128.dds</File>
+    <File md5="754E7968FEE6A1007A72A44E1EF2C6AD" import="1">Art/SWhite16.dds</File>
+    <File md5="1DA02BB2351A17E8E36F8FB4AB3C2EAB" import="1">Art/SWhite24.dds</File>
+    <File md5="8D08D011CB3D446CFA95D533728F944A" import="1">Art/SWhite32.dds</File>
+    <File md5="2C4F1CA91AFE1A70FD4B9AD32ECD80A1" import="1">Art/SWhite48.dds</File>
+    <File md5="A6EC7E554884C7260EBEE8CD3408CE64" import="1">Art/SWhite64.dds</File>
+    <File md5="CB193ED56276923D69472D2025CA0EFD" import="0">XML/Building/Building.xml</File>
+    <File md5="A58555971C70F65CE96817C1CF318ECF" import="0">XML/Civilization/Civilization.xml</File>
+    <File md5="5B6EB461ED62B0E8634B28E3F640252A" import="0">XML/Diplomacy/Diplomacy_Responses.xml</File>
+    <File md5="57E3C4AA63C4D153E3CF76933BE288CA" import="0">XML/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="4557BA5F1CCF50DA3F7F65BD7826A4DA" import="0">XML/Leader/Leader.xml</File>
+    <File md5="968D7628EAEC09F5984FBAD95459CE40" import="0">XML/Trait/Trait.xml</File>
+    <File md5="02872D9FEBF0C76F73ED83DD491EFE83" import="0">XML/Unit/ArtDef.xml</File>
+    <File md5="0B1588FECF24E3D617D438ED262FAFDD" import="0">XML/Unit/Unit.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/ArtDef.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Building/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Diplomacy_Responses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

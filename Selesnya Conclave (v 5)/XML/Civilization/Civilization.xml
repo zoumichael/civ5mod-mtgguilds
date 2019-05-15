@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_SELESNYA</Type>
+      <Description>TXT_KEY_CIV_SELESNYA_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_SELESNYA</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_SELESNYA_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_SELESNYA_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_SELESNYA</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_ROME</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+      <ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>SELESNYA_ICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>SELESNYA_CIV_WHITE_FLAGS</AlphaIconAtlas>
+      <MapImage>SMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_SELESNYA_TEXT</DawnOfManQuote>
+      <DawnOfManImage>SDOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <Civilization_BuildingClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+      <BuildingType>BUILDING_TEMPLE_GARDEN</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_SELESNYA_0</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <LeaderheadType>LEADER_TROSTANI</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_SELESNYA_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+      <UnitType>UNIT_CENTAUR</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <Civilization_Start_Region_Priority>
+    <Row>
+      <CivilizationType>CIVILIZATION_SELESNYA</CivilizationType>
+      <RegionType>REGION_PLAINS</RegionType>
+    </Row>
+  </Civilization_Start_Region_Priority>
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_SELESNYA</Type>
+      <PrimaryColor>COLOR_PLAYER_SELESNYA_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_SELESNYA_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_SELESNYA_ICON</Type>
+      <Red>1.0</Red>
+      <Green>1.0</Green>
+      <Blue>0.8</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_SELESNYA_BACKGROUND</Type>
+      <Red>0.0862</Red>
+      <Green>0.3607</Green>
+      <Blue>0.247</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_SELESNYA_DESC">
+      <Text>Selesnya Conclave</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_FACTOID_HEADING">
+      <Text>Factoids</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_FACTOID_TEXT">
+      <Text>The Selesnya Conclave is a green/white guild from the plane and city of Ravnica. Introduced in Ravnica: City of Guilds, the guild is also featured in Return to Ravnica.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_HEADING_1">
+      <Text>Description</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_HEADING_2">
+      <Text>Background</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_HEADING_3">
+      <Text>History</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_TEXT_1">
+      <Text>Founded by parun Mat'Selesnya, a female humanoid elemental formed via the fusion of dryads, the Selesnya Conclave is a decentralized collective variably described as a "selfless, nurturing, spiritual group" or a "brainwashing nature cult", and involves itself in the establishment and maintenance of peace, life, and unity in Ravnica.[NEWLINE][NEWLINE]Despite their superficial appearance of being a "good" and "peace-loving", in truth the guild, is hypocritical and as sinister, if not more so, as other Ravnican guilds. The Conclave often employs its quietmen and other members to silence the civilians of Ravnica and wreak havoc. The defenders of the Selesnya are the Ledev guardians. In addition to these guards, the quiet-men used to guard Vitu-Ghazi, but Szadek, Lord of Secrets gained control of them and used them to wreak havoc.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_TEXT_2">
+      <Text>Selesnya is composed mainly of dryads. The "guild leader" of Selesnya in the Ravnica: City of Guilds set is a collective mind known as the Chorus of the Conclave, with the top members of the guild as figureheads.[NEWLINE][NEWLINE]Mat'Selesnya now resides within Vitu-Ghazi, having offered herself to preserve order in Selesnya. Currently, three dryads, serving as the new guildmaster, serve as her voice.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_TEXT_3">
+      <Text>The main seat of Selesnya's power in the region of Utvara was Vitar Yescu, an enormous living tree that produced a pollen that served as an antigen to local plague. The head of Selesnya in Utvara was elven shapeshifter Wrizfar Barkfeather.[NEWLINE][NEWLINE]After the Decamillennial, the decimated Wojek League turned to other guilds' similar organizations for temporary help. Many Selesnyan ledev thus serves as "apos", i.e. auxiliary patrol officers, with the wojeks. After the Decamillennial, a new half-military suborganization was also founded - the Knight Order of Mat'selesnya.[NEWLINE][NEWLINE]During the events of Agents of Artifice, the Selesnya were lynched en masse due to the citizens realising their role in forcing the oppression of the guilds. However, they returned as of the events of Return to Ravnica.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SELESNYA_TITLE">
+      <Text>Selesnya</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SELESNYA_SHORT_DESC">
+      <Text>The Selesnya</Text>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SELESNYA_ADJECTIVE">
+      <Text>Selesnya</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_SELESNYA_TEXT">
+      <Text>The Selesnya guild sees itself as the voice of Mat’Selesnya, a mysterious consciousness they believe to be the manifestation of nature itself. All within the guild are considered mouthpieces of that singular voice, and they seek to expand their guild by evangelizing their message and adding members. The Selesnya message is personal as well as public: individuals must silence their own consciousness in order to hear the will of their guildmaster, a three-headed dryad who is the spiritual transmitter of Mat’Selesnya. [NEWLINE][NEWLINE]The guild’s goal is to subsume the identities of individual members, transforming them into instruments of the Conclave. Selesnya has an immense reach. The guild is spread across Ravnica. Each settlement, called a vernadi, is a small commune built around a central tree and led by a dryad leader. The vernadi expand outward from Vitu-Ghazi, and all are connected through an underground network of roots.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SELESNYA_0">
+      <Text>Vitu-Ghazi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_0">
+      <Text>Aklechin</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_1">
+      <Text>Biracazir</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_2">
+      <Text>Fonn</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_3">
+      <Text>Lilyeyama</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_4">
+      <Text>Myczil</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_5">
+      <Text>Orval</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_6">
+      <Text>Bayul</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_7">
+      <Text>Kel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_8">
+      <Text>Tolsimir</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_SELESNYA_9">
+      <Text>Wrizfar</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

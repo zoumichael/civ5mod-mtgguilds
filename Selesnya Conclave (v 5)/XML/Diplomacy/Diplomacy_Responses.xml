@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/23/2011 12:25:44 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<!-- First Greeting messages from AI leaders-->
+		<Row LeaderType="LEADER_TROSTANI">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_TROSTANI_GREETING%</Response>
+		</Row>
+		<!-- Defeated messages from AI leaders -->
+		<Row LeaderType="LEADER_TROSTANI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_TROSTANI_DEFEATED</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TROSTANI_GREETING_1">
+			<Text>The Conclave welcomes you with open arms, stranger.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROSTANI_GREETING_2">
+			<Text>Welcome stranger, I am Trostani, Guildmaster of Selesnya.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROSTANI_GREETING_3">
+			<Text>Welcome to the Conclave, the pinnacle of order, life, and harmony.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TROSTANI_DEFEATED">
+			<Text>The Conclave has failed, there is no more hope for me now.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

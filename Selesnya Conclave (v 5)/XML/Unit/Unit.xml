@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Units>
+    <Row>
+      <Type>UNIT_CENTAUR</Type>
+      <Description>TXT_KEY_UNIT_CENTAUR</Description>
+      <Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_CENTAUR_TEXT</Civilopedia>
+      <Strategy>TXT_KEY_UNIT_CENTAUR_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_HELP_CENTAUR</Help>
+      <Requirements></Requirements>
+      <Combat>18</Combat>
+      <RangedCombat>0</RangedCombat>
+      <Cost>80</Cost>
+      <FaithCost>160</FaithCost>
+      <RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
+      <Moves>5</Moves>
+      <BaseSightRange>2</BaseSightRange>
+      <Class>UNITCLASS_KNIGHT</Class>
+      <CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+      <Domain>DOMAIN_LAND</Domain>
+      <DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+      <MilitarySupport>1</MilitarySupport>
+      <MilitaryProduction>1</MilitaryProduction>
+      <Pillage>1</Pillage>
+      <PrereqTech>TECH_CHIVALRY</PrereqTech>
+      <ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+      <GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+      <AdvancedStartCost>25</AdvancedStartCost>
+      <MinAreaSize>-1</MinAreaSize>
+      <NukeDamageLevel>-1</NukeDamageLevel>
+      <CombatLimit>100</CombatLimit>
+      <XPValueAttack>3</XPValueAttack>
+      <XPValueDefense>3</XPValueDefense>
+      <UnitArtInfo>ART_DEF_UNIT_CENTAUR</UnitArtInfo>
+      <ShowInPedia>1</ShowInPedia>
+      <MoveRate>QUADRUPED</MoveRate>
+      <UnitFlagIconOffset>0</UnitFlagIconOffset>
+      <PortraitIndex>2</PortraitIndex>
+      <IconAtlas>SELESNYA_ICON_ATLAS</IconAtlas>
+      <UnitFlagAtlas>SELESNYA_UNIT_ATLAS</UnitFlagAtlas>
+    </Row>
+  </Units>
+
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <UnitAIType>UNITAI_DEFENSE</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  <Unit_ClassUpgrades>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+    </Row>
+  </Unit_ClassUpgrades>
+  <Unit_FreePromotions>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+    </Row>
+	<Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <PromotionType>PROMOTION_ATTACK_BONUS</PromotionType>
+    </Row>
+  </Unit_FreePromotions>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>9</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>3</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <FlavorType>FLAVOR_MOBILE</FlavorType>
+      <Flavor>5</Flavor>
+    </Row>
+  </Unit_Flavors>
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <ResourceType>RESOURCE_HORSE</ResourceType>
+      <Cost>1</Cost>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_CENTAUR</UnitType>
+      <SelectionSound>AS2D_SELECT_CENTAUR</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_CENTAUR</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_CENTAUR">
+      <Text>Centaur</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_CENTAUR_TEXT">
+      <Text>(filler)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CENTAUR_STRATEGY">
+      <Text>The Centaurs are weaker replacements than the knights that they replace, however they are cheaper to make and they as faster than the average knight, create a huge army of them and use them to crush your opponent!s</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CENTAUR">
+      <Text>Powerful Medieval Mounted Unit, weak to Pikemen. Cheaper and weaker than the average Knight.</Text>
+    </Row>
+  </Language_en_US>
+</GameData>
