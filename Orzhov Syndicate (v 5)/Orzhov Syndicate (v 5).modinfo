@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d792cd93-f7d2-40df-8c0c-2b30543c90a3" version="5">
+  <Properties>
+    <Name>Orzhov Syndicate</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds the Orzhov Syndicate as a playable civ in to the game.</Teaser>
+    <Description>Adds the Orzhov Syndicate as a playable civ in to the game.
+
+The Orzhov Syndicate is a money based civ, it's UA, Debtors Knell, adds +1 Gold for EVERY improvement, but adds a 25% unhappiness to population. The UB: Godless Shrine, generates 2 faith and adds +1 gold for every two citzens, however it costs more production to build than the regular shrine. 
+
+It's UU does not generate any monetary bonuses, however it is stronger than the average pikeman and can see farther, however it can repair pillaged improvements, which ties in well with the UA.</Description>
+    <Authors>Michael</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="08DE4DB5510EEE689E55E7F9A6E95968" import="1">Art/ODiplo.dds</File>
+    <File md5="7AD8B1844555F9380C6BB81A9B7521A2" import="1">Art/ODOM.dds</File>
+    <File md5="B33A99A9418C2C6FF09323249D7AEF16" import="1">Art/OIconAtlas128.dds</File>
+    <File md5="DE86A6D395C09612D4D5216B2F5B03E4" import="1">Art/OIconAtlas256.dds</File>
+    <File md5="0B7A624F382813C686BEFEC2BAF1B941" import="1">Art/OIconAtlas32.dds</File>
+    <File md5="D226994A48E4B9B8534F0BC5A5542095" import="1">Art/OIconAtlas45.dds</File>
+    <File md5="1D9C358DA01D82002C3A1A71FA702CD9" import="1">Art/OIconAtlas64.dds</File>
+    <File md5="6BC642F6CE06D6FB362374DC819CC517" import="1">Art/OIconAtlas80.dds</File>
+    <File md5="C06E89DDD2C70479E085E40B8444E8E2" import="1">Art/OMap.dds</File>
+    <File md5="A6CCDE935AFD654B6803717FFF4773C6" import="1">Art/Model/reislaufer.fxsxml</File>
+    <File md5="54466258F5A615864E2F2FC808E6ACF6" import="1">Art/Model/reislaufer.gr2</File>
+    <File md5="DD4DBB6FB2E7E11ADBE9B37D53560428" import="1">Art/Model/reislaufer_diff.dds</File>
+    <File md5="C17C1A9359A378E1F1FF8A47F4D40308" import="1">Art/Model/reislaufer_sref.dds</File>
+    <File md5="D5F249C523743259526C24E6E84EAFE4" import="1">Art/OrzhovScene.xml</File>
+    <File md5="B4D85C865197E002E262A90C72AAD42F" import="1">Art/OWhite128.dds</File>
+    <File md5="1E650F4794A935BB078EAAECBFEC5E98" import="1">Art/OWhite16.dds</File>
+    <File md5="F0543FD997A0B176DABF63564DFE6EBE" import="1">Art/OWhite24.dds</File>
+    <File md5="94E3EDE237547FC3DB90CBF0B178F0CE" import="1">Art/OWhite32.dds</File>
+    <File md5="FB547470C0DBF93101794B99AC3D8DBF" import="1">Art/OWhite48.dds</File>
+    <File md5="3FA8B40AFE1077FE9A2B7571759C02F9" import="1">Art/OWhite64.dds</File>
+    <File md5="1BEC254B7E1D093FE4F98A22990B0FE4" import="1">Art/SV_Guards.dds</File>
+    <File md5="3F52638F84E928B05759E38FDB821D4A" import="1">Art/OUnitIcon.dds</File>
+    <File md5="CF5BCD54967C6DC00C59E2A03F146E40" import="0">XML/Building/Buildings.xml</File>
+    <File md5="655966A80D72BD8B901131D5267EC859" import="0">XML/Civilization/Civilization.xml</File>
+    <File md5="373B6DC94092BF949EE00EFB75E079E0" import="0">XML/Diplomacy/Diplomacy_Responses.xml</File>
+    <File md5="E6A26C3A7156E71580DC36FE75B595BB" import="0">XML/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="5457DCB33B5F49BCDBA6AB00371D792B" import="0">XML/Leader/Leader.xml</File>
+    <File md5="466C63EC39A3F97AB72803A725027754" import="0">XML/Trait/Trait.xml</File>
+    <File md5="AB8E8EE3F69F63F61FAAF93304A961AE" import="0">XML/Unit/ArtDef.xml</File>
+    <File md5="45BE8B6D3AA25FD38CD03CCB9B857D40" import="0">XML/Unit/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Building/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/ArtDef.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Diplomacy_Responses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

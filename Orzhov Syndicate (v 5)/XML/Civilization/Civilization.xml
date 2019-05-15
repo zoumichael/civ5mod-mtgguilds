@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_ORZHOV</Type>
+      <Description>TXT_KEY_CIV_ORZHOV_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_ORZHOV</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_ORZHOV_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_ORZHOV_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_ORZHOV</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_ORZHOV</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+      <ArtStyleSuffix>_EURO</ArtStyleSuffix>
+      <ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>ORZHOV_ICON_ATLAS</IconAtlas>
+      <AlphaIconAtlas>ORZHOV_CIV_WHITE_FLAGS</AlphaIconAtlas>
+      <MapImage>OMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_ORZHOV_TEXT</DawnOfManQuote>
+      <DawnOfManImage>ODOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+
+  <Civilization_BuildingClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+      <BuildingType>BUILDING_GODLESS_SHRINE</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_ORZHOV_0</CityName>
+    </Row>
+  </Civilization_CityNames>
+
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <LeaderheadType>LEADER_OBZEDAT</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_ORZHOV_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_ORZHOV</CivilizationType>
+      <UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+      <UnitType>UNIT_ORZHOV_BASILICA_GUARDS</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_ORZHOV</Type>
+      <PrimaryColor>COLOR_PLAYER_ORZHOV_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_ORZHOV_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_ORZHOV_ICON</Type>
+      <Red>1.0</Red>
+      <Green>1.0</Green>
+      <Blue>1.0</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_ORZHOV_BACKGROUND</Type>
+      <Red>0.0</Red>
+      <Green>0.0</Green>
+      <Blue>0.2</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_ORZHOV_DESC">
+      <Text>Orzhov Syndicate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_FACTOID_HEADING">
+      <Text>Orzhov Factoid</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_FACTOID_TEXT">
+      <Text>The Orzhov Syndicate is the Ravnican guild of business, where the values of white and black meet, where the dead exist solely to rule. Nearly every business in Ravnica ties back to the Orzhov in some devious way or another. Whilst they bear the facade of a religious group and may well have been a true faith at the signing of the Guildpact, they now worship only profit and power.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_HEADING_1">
+      <Text>Background</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_HEADING_2">
+      <Text>Guild Mechanics</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_TEXT_1">
+      <Text>Their white flavor can be seen in that they have a strong sense of tradition and community, reflected by the fact that they still go through all of their ancient rituals and customs despite not truly worshipping any gods, and by that they hoard all their wealth to themselves but will gladly share with family members or close friends. Their black flavor can be seen in that they regularly deal with the dead, they never give to charity if they can help it, and continually violate the spirit of the law solely to meet their own ends.[NEWLINE][NEWLINE]The Syndicate is famous for dealing with ghosts. They are presided over by a council of ghosts, the Obzedat, in Orzhova, the Church of Deals. Should somebody be in debt to them (as many are), that person must work off their debt even beyond the grave. The Orzhov work so thoroughly with death that they even know how to make thrulls out of the remains of the dead.[NEWLINE][NEWLINE]The high-ranking members of the Orzhov use magical means to extend their lives, and are mutated in many ways that they pass on to their offspring. For example, one of Teysa Karlov's legs is practically useless, and therefore she has been forced to use a walking cane since she learned to walk.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_TEXT_2">
+      <Text>Guildpact: Haunt[NEWLINE][NEWLINE]The Orzhov game mechanic is "haunt": when a card with haunt would be put into a graveyard, it is removed from the game "haunting" a creature. When that creature is put into the graveyard, the controller of the card with the haunt effect gets the card's effect a second time.[NEWLINE][NEWLINE]Gatecrash: Extort[NEWLINE][NEWLINE]The Orzhov game mechanic in Gatecrash is Extort, which, in the reminder text, reads "Whenever you cast a spell, you may pay while/black. If you do, each opponent loses 1 life and you gain life equal to the total life lost this way."</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ORZHOV_TITLE">
+      <Text>Orzhov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ORZHOV_SHORT_DESC">
+      <Text>Orzhov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ORZHOV_ADJECTIVE">
+      <Text>Orzhov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_ORZHOV_TEXT">
+      <Text>The Orzhov guild is founded on the beliefs that wealth is power, that structure breeds wealth, and that guilt creates structure. The guild is run like a combination religion, credit-lending agency, and crime syndicate. An ostentatious hierarchy of priests, enforcers, and ghostly councilors rules over a congregation of guilt-bound loyalists, indebted undead, and thrull servants. Many Orzhov guild members truly believe that their rule is necessary for making Ravnica the best it can be, and they are unscrupulous in their methods of seizing power. Most Ravnicans see the Orzhov for the corrupt organization they are, but many are lured in by their promises of wealth, prestige, and longevity.[NEWLINE][NEWLINE]The Orzhov guild is ruled by the Obzedat, a council of ghostly autocrats who have maintained their wealth and power even as they’ve shed their mortal forms. Members of the Obzedat have managed to cheat mortality, maintaining their consciousness (and their greed) beyond the threshold of death. They are paranoid and spiteful dictators, often going out of their way to thwart ambitious underlings, crush rumormongers, and spy on potential enemies. The Obzedat rarely speak directly with those outside the guild; instead they communicate through their official envoy, Teysa Karlov.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORZHOV_0">
+      <Text>Orzhova</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_0">
+      <Text>Garn</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_1">
+      <Text>Teysa</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_2">
+      <Text>Karlov</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_3">
+      <Text>Melisk</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_4">
+      <Text>Pivlic</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_5">
+      <Text>Horst</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_6">
+      <Text>Milana</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_7">
+      <Text>Viper</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_8">
+      <Text>Albrecht</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_ORZHOV_9">
+      <Text>Anton</Text>
+    </Row>
+  </Language_en_US>
+</GameData>
