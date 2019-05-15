@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Civilizations>
+    <Row>
+      <Type>CIVILIZATION_IZZET</Type>
+      <Description>TXT_KEY_CIV_IZZET_DESC</Description>
+      <Civilopedia></Civilopedia>
+      <CivilopediaTag>TXT_KEY_CIV5_IZZET</CivilopediaTag>
+      <Strategy></Strategy>
+      <Playable>1</Playable>
+      <AIPlayable>1</AIPlayable>
+      <ShortDescription>TXT_KEY_CIV_IZZET_SHORT_DESC</ShortDescription>
+      <Adjective>TXT_KEY_CIV_IZZET_ADJECTIVE</Adjective>
+      <DefaultPlayerColor>PLAYERCOLOR_IZZET</DefaultPlayerColor>
+      <ArtDefineTag>ART_DEF_CIVILIZATION_IZZET</ArtDefineTag>
+      <ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+      <ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+      <ArtStylePrefix>ASIAN</ArtStylePrefix>
+      <DerivativeCiv></DerivativeCiv>
+      <PortraitIndex>0</PortraitIndex>
+      <IconAtlas>IZZET_ICON_ATLAS</IconAtlas>
+	  <AlphaIconAtlas>IZZET_CIV_WHITE_FLAGS</AlphaIconAtlas>
+      <MapImage>IMap.dds</MapImage>
+      <DawnOfManQuote>TXT_KEY_CIV5_DAWN_IZZET_TEXT</DawnOfManQuote>
+      <DawnOfManImage>IDOM.dds</DawnOfManImage>
+      <SoundtrackTag></SoundtrackTag>
+    </Row>
+  </Civilizations>
+  <Civilization_BuildingClassOverrides>
+	<Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+      <BuildingType>BUILDING_BOILERWORKS</BuildingType>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+      <BuildingType>BUILDING_ILIBRARY</BuildingType>
+    </Row>
+	<Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+      <BuildingType>BUILDING_IUNIVERSITY</BuildingType>
+    </Row>
+	<Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+      <BuildingType>BUILDING_IOBSERVATORY</BuildingType>
+    </Row>
+	<Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+      <BuildingType>BUILDING_IPUBLIC_SCHOOL</BuildingType>
+    </Row>
+	<Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+      <BuildingType>BUILDING_ILABORATORY</BuildingType>
+    </Row>
+  </Civilization_BuildingClassOverrides>
+  <Civilization_CityNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_IZZET_0</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <Civilization_FreeBuildingClasses>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+    </Row>
+  </Civilization_FreeBuildingClasses>
+  <Civilization_FreeTechs>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <TechType>TECH_AGRICULTURE</TechType>
+    </Row>
+  </Civilization_FreeTechs>
+  <Civilization_FreeUnits>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+      <UnitAIType>UNITAI_SETTLE</UnitAIType>
+      <Count>1</Count>
+    </Row>
+  </Civilization_FreeUnits>
+  <Civilization_Leaders>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <LeaderheadType>LEADER_NIVMIZZET</LeaderheadType>
+    </Row>
+  </Civilization_Leaders>
+  <Civilization_Religions>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+    </Row>
+  </Civilization_Religions>
+  <Civilization_SpyNames>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_0</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_1</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_2</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_3</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_4</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_5</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_6</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_7</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_8</SpyName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <SpyName>TXT_KEY_SPY_NAME_IZZET_9</SpyName>
+    </Row>
+  </Civilization_SpyNames>
+  <Civilization_Start_Along_Ocean>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <StartAlongOcean>1</StartAlongOcean>
+    </Row>
+  </Civilization_Start_Along_Ocean>
+  <Civilization_UnitClassOverrides>
+    <Row>
+      <CivilizationType>CIVILIZATION_IZZET</CivilizationType>
+      <UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+      <UnitType>UNIT_HYPERSONIC_DRAGON</UnitType>
+    </Row>
+  </Civilization_UnitClassOverrides>
+  <PlayerColors>
+    <Row>
+      <Type>PLAYERCOLOR_IZZET</Type>
+      <PrimaryColor>COLOR_PLAYER_IZZET_ICON</PrimaryColor>
+      <SecondaryColor>COLOR_PLAYER_IZZET_BACKGROUND</SecondaryColor>
+      <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+    </Row>
+  </PlayerColors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_IZZET_ICON</Type>
+      <Red>1.0</Red>
+      <Green>0.0</Green>
+      <Blue>0.0</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+  <Colors>
+    <Row>
+      <Type>COLOR_PLAYER_IZZET_BACKGROUND</Type>
+      <Red>0.1058</Red>
+      <Green>0.1294</Green>
+      <Blue>0.3765</Blue>
+      <Alpha>1.0</Alpha>
+    </Row>
+  </Colors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_CIV_IZZET_DESC">
+      <Text>Izzet League</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_FACTOID_HEADING">
+      <Text>Izzet Factoid</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_FACTOID_TEXT">
+      <Text>The Izzet League is a blue/red guild from the plane and city of Ravnica. Introduced in Guildpact, the guild is also featured in Return to Ravnica and the stand-alone Izzet vs. Golgari set, opposite the Golgari Swarm.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_HEADING_1">
+      <Text>Background</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_HEADING_2">
+      <Text>Niv-Mizzet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_HEADING_3">
+      <Text>Ral Zarek</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_HEADING_4">
+      <Text>The Firemind</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_HEADING_5">
+      <Text>Weirds</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TEXT_1">
+      <Text>The Izzet League are charged with attending to Ravnican civic works, including water supply systems, sewers, heating systems, boilers, and roadways. In addition to carrying out these functions, the Izzet members — obsessive, keen, and creative intellectuals, who often have short attention spans — are known to perform magical experiments, ever with reckless abandon and sometimes with spectacular but severe results. Unlike the other guilds, the Izzet do not strive for hegemony of the city and plane of Ravnica or power at all; integral to the Izzet League, a guild of masters of both theoretical and applied science and spellcraft, however, the passionate seeking and thirst for knowledge. Combined with their drive for discovery and child-like curiosity, the brilliant but capricious and whimsical Izzet magewrights jump to and from ideas as they see fit, discarding old ideas for new ones that attract their attention. In this regard, they can likened to ambivalent or benevolent mad and absent-minded scientists/professors.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TEXT_2">
+      <Text>The brilliant of Ravnica flock to Niv-Mizzet, and the most intelligent being on Ravnica. Powerful enough to live to tell the tale of his fight against the nephilim and capable of seizing control of the city and plane of Ravnica, Niv-Mizzet is content with not taking over Ravnica, in large part due to his fickleness and odium for monotony, as ruling and running Ravnica would become tedious.[NEWLINE][NEWLINE]Although varieties of dragon-kin, such as drakes, wyverns, and wurms, are present in Ravnica, Niv-Mizzet is said to be the last true dragon. As would be reasonably expected of him due to his vanity, Niv-Mizzet has numerous lesser clones of himself; other than as his underlings, the full purpose of these dragon clones, however, remains unknown. Testimonies to the significance as well as vanity of Niv-Mizzet are reflected in the uniforms of Izzet League members and the names of inventions or structures, such as Mizzium, a metal invented by Niv-Mizzet; Nivix, the guild hall of the Izzet League; and Izzet, the name of the guild itself. The alchemically-boosted clothing of the Izzet are flamboyant, with bright fabrics dyed in the colors of their draconic leader's scales and shiny metals.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TEXT_3">
+      <Text>Ral Zarek is a blue and red-aligned planeswalker, born to the city plane of Ravnica and a high ranking guildmage to the Izzet League. While he has ascended, he's managed to hide this fact from Niv-Mizzet, a very impressive task. Ral is the chief researcher investigating the ancient codes laid out in the Tenth District, the leylines and secrets that make up the Implicit Maze that so fascinates Niv-Mizzet. Ral then takes the role as the Izzet's maze runner after killing the rightful Izzet maze runner.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TEXT_4">
+      <Text>The Firemind is an extrasensory link with Niv-Mizzet's consciousness and omniscience, between selected, worthy Izzet League subordinates, Crixizix being one, and Niv-Mizzet himself. Members of the Izzet League whom are deemed worthy must first pass a test before they may communicate with Niv-Mizzet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TEXT_5">
+      <Text>Supposedly created during the Katazar-Razblat Elemental Symposium, weirds are the semi-sentient, walking-paradox result of a fusion of elementals of opposing elements, of fire and water and of earth and electricity. Weirds are a creature type unique to the Izzet League, and function as ubiquitous lab assistants and "pets" of Izzet League members.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IZZET_TITLE">
+      <Text>Korea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_IZZET_SHORT_DESC">
+      <Text>Izzet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_IZZET_ADJECTIVE">
+      <Text>Izzet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_IZZET_TEXT">
+      <Text>The Izzet are obsessive experimenters, the epitome of keen creative intellect combined with an unfortunately short attention span. The original mandate of the Izzet guild was to provide solutions for public works projects (sewers, boilers, roadways), but their experiments often produce mana geysers, spatial rifts, or arcane portals instead. As of late, their guildmaster, the dragon Niv-Mizzet, has driven the Izzet to delve deeper and deeper into more dangerous and experimental magic. The purpose of these experiments is unknown.[NEWLINE][NEWLINE]Niv-Mizzet, the leader and original parun of the Izzet League, is an ancient, vain, temperamental, and super-intelligent dragon. Niv-Mizzet rarely stoops to concern himself with the day-to-day running of the guild, preferring to craft long-range plans and let his underlings implement the details. Niv-Mizzet uses his personal court, the Izmundi, to guide his machinations and to keep him abreast of the happenings in the wider world. The Izmagnus are the most powerful members of the Izmundi, which typically has five to seven members, including some whose identities are kept secret. Even members of the Izmagnus are not privy to Niv-Mizzet’s highest-level plans and goals.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZZET_0">
+      <Text>Nivix</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_0">
+      <Text>Babolax</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_1">
+      <Text>Crixizix</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_2">
+      <Text>Kaluzax</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_3">
+      <Text>Melek</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_4">
+      <Text>Mindosz</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_5">
+      <Text>Lumia</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_6">
+      <Text>Vazozav</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_7">
+      <Text>Tibor</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_8">
+      <Text>Zomaj</Text>
+      <Gender>feminine</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_NAME_IZZET_9">
+      <Text>Hauc</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

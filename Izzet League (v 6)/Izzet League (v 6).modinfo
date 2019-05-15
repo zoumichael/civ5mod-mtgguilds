@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4d03e3db-ef99-44a9-b14e-3f0fe24bacc0" version="6">
+  <Properties>
+    <Name>Izzet League</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Izzet League as a playable civilization in the game.</Teaser>
+    <Description>Adds the Izzet League as a playable civilization in the game.
+
+The Izzet League is a civilization focused on science. Their Unique trait, invoke the firemind, gives them great scientists 100% faster, (based on the fact that scientists are linked with Niv-Mizzet's consciousness and omniscience and become great scientists.) and all scientific buildings have 0 maintainence and gives +1 gold and +2 Happiness, since the Izzet really like their labortories.
+
+Their UB: The boilerworks, replaces the factory, it grants a HUGE boost to science and production and does not cost coal, allowing the Izzet to both increase their science potential and for them to adopt an ideology ASAP.
+
+Their UU: Is the Hypersonic Dragon, it replaces the knight but is avaliable in when you get metal casting, it has a bonus against mounted units, and can go into mountains and has the movement to great general promotion. Does not need horses.
+
+Credits to FramedArchitect for his amazing red drake model.</Description>
+    <Authors>Michael</Authors>
+    <SpecialThanks>FramedArchitect</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C29CAF815192D36C132E5F5C2CA58776" import="1">Art/IDiplo.dds</File>
+    <File md5="ACE77DA530DC9B68A58C354C3533020B" import="1">Art/IDOM.dds</File>
+    <File md5="01545CA9E92146C4F0942E898265C611" import="1">Art/IIconAtlas128.dds</File>
+    <File md5="1BA3BBC61A9B194C2A87221168F0E0B5" import="1">Art/IIconAtlas256.dds</File>
+    <File md5="BE38EBFF8BC79F3863B3FDDADDDD3DAD" import="1">Art/IIconAtlas32.dds</File>
+    <File md5="6E97E535F6D62144C50A6F6E7668C10D" import="1">Art/IIconAtlas45.dds</File>
+    <File md5="752AE1C3BF21D66A9A4D8171BD84A5C2" import="1">Art/IIconAtlas64.dds</File>
+    <File md5="A4CDDE0DAC639F31ACE4910251C9D9CB" import="1">Art/IIconAtlas80.dds</File>
+    <File md5="DB3FEFCEE0F82526C053682DE6113E14" import="1">Art/IMap.dds</File>
+    <File md5="3EFC444A93FC6FBCE2FCB073B1E3ABBF" import="1">Art/IWhite128.dds</File>
+    <File md5="6EC2F233C896FA640C1F631AC15E5224" import="1">Art/IWhite16.dds</File>
+    <File md5="C6C959223D6472D50FA661B64F744D3A" import="1">Art/IWhite24.dds</File>
+    <File md5="848C56F9C7708E910EB7142D223F3CC4" import="1">Art/IWhite32.dds</File>
+    <File md5="21B8B549252748DF03B1638263742A4E" import="1">Art/IWhite48.dds</File>
+    <File md5="428156F4C22FD3C01D4166AEB2630BA1" import="1">Art/IWhite64.dds</File>
+    <File md5="028D1039906180AC215A6AC7D560B1E2" import="1">Art/Model/RedDrake.dds</File>
+    <File md5="E01BBDD9CF14ED665E40A1063AFF339C" import="1">Art/Model/red_drake.fxsxml</File>
+    <File md5="C052A614FE584B0AE7777B58A5BBB637" import="1">Art/Model/red_drake.gr2</File>
+    <File md5="75FF0EEE443D319F7A294F26056AFE3B" import="1">Art/Model/storm_drake.gr2</File>
+    <File md5="9E30B4EBDFDBE0DF8998AE2AAE8B09D4" import="1">Art/Model/storm_drake_die1.gr2</File>
+    <File md5="2526569A6625D5CDA3D7CC09F05DD281" import="1">Art/Model/storm_drake_fidget1.gr2</File>
+    <File md5="9130F555F24A2D9FAFBC3739D48FAC07" import="1">Art/Model/storm_drake_fort1.gr2</File>
+    <File md5="55ED7197662BD023C9D0DEDAE10711D9" import="1">Art/Model/storm_drake_fort_idle1.gr2</File>
+    <File md5="E0BC6E5452DA346A551CEE3F3F0A11D0" import="1">Art/Model/storm_drake_hurt1.gr2</File>
+    <File md5="B9E09AE884408629B6EADC4E9CC0D8F7" import="1">Art/Model/storm_drake_idle.gr2</File>
+    <File md5="5AF127D8C5CA80241B2F399A072B6B53" import="1">Art/Model/storm_drake_run.gr2</File>
+    <File md5="08C01F230141780C1EC48FB69A0B8BB6" import="1">Art/Model/storm_drake_strike1.gr2</File>
+    <File md5="D426B03FD78688F77B59B63CF8A20083" import="1">Art/Model/storm_drake_strike2.gr2</File>
+    <File md5="A84B7151A8D8A64E574C2DA4B12F2803" import="1">Art/IzzetScene.xml</File>
+    <File md5="16134204640FFB1A405AA7ECD1A27CC6" import="1">Art/SV_Hypersonic.dds</File>
+    <File md5="AF8225482323AB0D7758C30651B7DB1F" import="1">Art/IUnitFlag.dds</File>
+    <File md5="47BBC52E7ED414B15562EAC9B12903E4" import="0">XML/Buildings/BoilerWorks.xml</File>
+    <File md5="23DE77A186D1E209CB04B8E2D89F2F98" import="0">XML/Buildings/ILibrary.xml</File>
+    <File md5="C6D6023586B05787E42B370B733BA0D9" import="0">XML/Buildings/IPublicSchool.xml</File>
+    <File md5="0FE6FCDAC69214785319EB19594E1231" import="0">XML/Buildings/IUniversity.xml</File>
+    <File md5="146D1A29EB375485E51EAE7888F6C794" import="0">XML/Buildings/ILaboratory.xml</File>
+    <File md5="5ED64BE87D17E79A0A076F378863357D" import="0">XML/Buildings/IObservatory.xml</File>
+    <File md5="21CD6AD88BA2FDDE22C7B061AA355269" import="0">XML/Civilization/Civilization.xml</File>
+    <File md5="09B501B407E48F6FF542CB66617540BF" import="0">XML/Diplo/Diplomacy_Responses.xml</File>
+    <File md5="35596AEE05430D51F632C70BA3131C80" import="0">XML/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="B3461FD3A67A358B5A056A8DA6680BD1" import="0">XML/Leader/Leader.xml</File>
+    <File md5="FA7CFBEE143207F091C268108AA2E917" import="0">XML/Trait/Trait.xml</File>
+    <File md5="6A9C6252C1FB59DF2D5F98F2CCE49D63" import="0">XML/Unit/ArtDef.sql</File>
+    <File md5="CC4E6D730BF1AD37B0A52CC69B9EB920" import="0">XML/Unit/HypersonicDragon.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/BoilerWorks.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILaboratory.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/ILibrary.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/IObservatory.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/IPublicSchool.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/IUniversity.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/ArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/HypersonicDragon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplo/Diplomacy_Responses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
